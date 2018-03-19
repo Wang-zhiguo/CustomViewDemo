@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <cn.wang.customviewdemo.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:right_button_drawable="@drawable/titlebar_add_icon"
+        app:title_background_color="@color/green"
+        app:title_text="标题1" />
+
+    <cn.wang.customviewdemo.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:right_button_visible="false"
+        app:title_background_color="@color/green"
+        app:title_text="标题2" />
+
+    <cn.wang.customviewdemo.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:left_button_text="左边"
+        app:right_button_text="右边"
+        app:title_background_color="@color/red"
+        app:title_text="标题3" />
+
+    <cn.wang.customviewdemo.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:left_button_text="左边"
+        app:right_button_drawable="@drawable/titlebar_add_icon"
+        app:title_background_color="@color/red"
+        app:title_text="标题4" />
+
+    <cn.wang.customviewdemo.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:left_button_text="左边"
+        app:left_button_text_color="@color/red"
+        app:right_button_drawable="@drawable/titlebar_add_icon"
+        app:title_background_color="@color/blue"
+        app:title_text="标题5" />
+
+    <cn.wang.customviewdemo.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:left_button_text="左边"
+        app:left_button_text_color="@color/red"
+        app:right_button_drawable="@drawable/titlebar_add_icon"
+        app:title_background_color="@color/blue"
+        app:title_text="标题6"
+        app:title_text_color="@color/black" />
+</LinearLayout>
